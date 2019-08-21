@@ -1,3 +1,5 @@
+export {}
+
 interface Javascript {
 	name: "javascript"
 	functionalSupport: boolean

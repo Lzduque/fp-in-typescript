@@ -1,3 +1,5 @@
+export {}
+
 interface Pair<T, U> {
 	first: T
 	second: U
@@ -12,4 +14,5 @@ Task: create a function that takes a string and returns a
 pair of the string and its length
 */
 
-const stringAndLength = () => {}
+const stringAndLength = (str: string): Pair<string, number> => pair<string, number>(str, str.length)
+
